@@ -1,6 +1,8 @@
-const  AuthenticationContainer = () => {
+import Authentication from "../../components/authentication";
+
+const AuthenticationContainer = () => {
     return(
-        <div>Login!!</div>
+        <Authentication />
     )
 }
 export default AuthenticationContainer;
